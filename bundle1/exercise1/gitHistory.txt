@@ -1,0 +1,23 @@
+ 1385  git init
+ 1386  ls
+ 1387  git status
+ 1388  git add .
+ 1389  git commit -m "Initial Changes"
+ 1390  git remote add origin https://github.com/Prime-Cave/TheGym-Git-Basics-Exercises.git
+ 1391  git branch -M main
+ 1392  git push -u origin main
+ 1393  ls
+ 1394  git branch 
+ 1395  git checkout dev
+ 1396  git branch dev
+ 1397  git branch 
+ 1398  git check out dev
+ 1399  git checkout dev
+ 1400  git branch 
+ 1401  git branch test
+ 1402  git branch
+ 1403  git checkout test
+ 1404  git branch 
+ 1405  git checkout dev
+ 1406  git branch -b test
+ 1407  git branch -d test
