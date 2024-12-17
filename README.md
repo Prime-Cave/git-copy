@@ -38,3 +38,30 @@
  31  git push --set-upstream origin dev
  32  clear
 ```
+
+### Exercise 2
+
+```bash 
+ 1  git stash -u //Stash all unsaved changes 
+ 2  git stash pop // Returns last stashed changes 
+ 3  git stash
+ 4  git stash -u 
+ 5  git stash list // Returns list of stashed changes 
+ 6  git stash save " This is the about page" -u //Saves stashes with info 
+ 7  git stash save "The Teams Page" -u
+ 8  git stash pop stash@{1} // Returns stashed change at a specific index 
+ 9  git stash list 
+ 10  git stash pop stash@{1}
+ 11  git add . 
+ 12  git commit -m "Practcing Stash Commands"
+ 13  git ls-files 
+ 14  git ls-files -s 
+ 15  git add bundle1/team.html
+ 16  git ls-files -s 100644 09057472405afdee5449c7310627e1d4e22d738b 0  bundle1/team.html
+ 17  git log // Get Log of commits 
+ 18  git reset --hard // Does a hard reset at the WIP level
+ 19  git status 
+ 20  git push 
+ 21  clear
+ 22  history 
+```
