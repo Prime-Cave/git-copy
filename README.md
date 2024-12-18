@@ -71,4 +71,6 @@
 
 ```bash 
     1 git log --oneline // shows a log of all the live merges 
+    2 git push --force // Forces a push 
+    3 
 ```
