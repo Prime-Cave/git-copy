@@ -65,6 +65,49 @@
  21  clear
  22  history 
 ```
+## Bundle 3
+
+### Exercise 1 
+
+```bash 
+ 1  git switch ft/team-page
+ 2  git add . 
+ 3  git commit -m "Bundle 3 Exercise 1"
+ 4  git push 
+ 5  git push --set-upstream origin ft/team-page
+ 6  git branch ft/contact-page
+ 7  git checkout ft/contact-page
+ 8  git checkout ft/team-page
+ 9  git log 
+ 10  git checkout ft/contact-page
+ 11  git cherry-pick e026644aa23bb4a0456f54affb1e322a893018c4
+ 12  git add .
+ 13  git commit -m "chanegs from the Contact page"
+ 14  git push 
+ 15  git push --set-upstream origin ft/contact-page
+ 16  git branch ft/faq-page
+ 17  git checkout ft/faq-page
+ 18  git add . 
+ 19  git commit -m "Faq changes added"
+ 20  git push 
+ 21  git push --set-upstream origin ft/faq-page
+ 22  git checkout ft/team-page
+ 23  git branch 
+ 24  git log
+ 25  git revert e026644aa23bb4a0456f54affb1e322a893018c4
+ 26  git branch 
+ 27  git switch ft/faq-page
+ 28  git switch ft/team-page
+```
+
+## Bundle 3
+
+### Exercise 2
+
+```bash 
+
+```
+
 
 
 ## RANDOM AND USEFUL COMMANDS
