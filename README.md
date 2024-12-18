@@ -65,3 +65,10 @@
  21  clear
  22  history 
 ```
+
+
+## RANDOM AND USEFUL COMMANDS
+
+```bash 
+    1 git log --oneline // shows a log of all the live merges 
+```
